@@ -2,13 +2,17 @@
 
 Transaction Management is an application to manage bank transactions.
 
+
+[![Java CI with Maven](https://github.com/leakeyash/TransacationManagement/actions/workflows/maven.yml/badge.svg)](https://github.com/leakeyash/TransacationManagement/actions/workflows/maven.yml)
+
 ## Get Start
 
 - JDK21
 - Spring Boot 3.5
 - Maven 3.9
+- Spock Testing Framework
 
-After start, you can navigate to localhost:8080 for the start page.
+Once launched, the start page will be available at localhost:8080.
 
 ## Dependencies
 
