@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: transaction-management
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: transaction-management
+  template:
+    metadata:
+      labels:
+        app: transaction-management
+    spec:
+      containers:
+        - name: transaction-management
+          image: transaction-management-spring:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080
